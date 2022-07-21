@@ -1,0 +1,517 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-family: "Ubuntu";
+  max-width: 100%;
+  box-sizing: border-box;
+}
+header a {
+  color: #fdfdfd;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.cabecalho-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+li {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  list-style-type: none;
+  color: #fdfdfd;
+}
+
+.conteudo-bloco-1 {
+  margin: 48px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.conteudo-bloco-1-escrito {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  margin: 48px;
+}
+.conteudo-bloco-1-escrito-titulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 69px;
+
+  color: #ff4081;
+}
+.conteudo-bloco-1-escrito-subtitulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+
+  color: #555555;
+}
+.conteudo-bloco-1-btn {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  padding: 10px;
+  width: 230px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 31px;
+  transition: 400ms;
+
+  color: #ff4081;
+}
+
+.conteudo-bloco-1-btn:hover {
+  background-color: #ff4081;
+  color: #ffff;
+}
+
+.conteuco-bloco-1-imagem {
+  margin-top: 62px;
+  margin: 48px;
+}
+.conteudo-2 {
+  background-color: #f7f7f7;
+  width: 100vw;
+  padding-bottom: 60px;
+}
+.conteudo-bloco-2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  gap: 50px;
+}
+.conteudo-bloco-2-opcoes {
+  text-align: center;
+}
+.conteudo-bloco-2-titulo {
+  margin-top: 40px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ff4081;
+}
+.conteudo-bloco-2-paragrafo {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #000000;
+}
+.conteudo-bloco-2-btn {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  transition: 400ms;
+  background-color: #ff4081;
+
+  color: #ffffff;
+}
+.conteudo-bloco-2-btn:hover {
+  background-color: #ffffff;
+  color: #ff4081;
+}
+
+.conteudo-bloco-3-titulo {
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 50px;
+  margin-left: 100px;
+  margin-top: 100px;
+  color: #009688;
+}
+.conteudo-bloco-3 {
+  display: flex;
+  margin-bottom: 60px;
+}
+
+.conteudo-bloco-3-opcoes {
+  margin-top: 100px;
+  margin-left: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.conteudo-bloco-3-paragrafo {
+  margin-left: 20px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 25px;
+
+  color: #000000;
+}
+.conteudo-4 {
+  margin-top: 100px;
+  background-color: #f7f7f7;
+  padding-top: 80px;
+}
+
+.conteudo-bloco-4-titulo {
+  margin-left: 100px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 37px;
+  line-height: 43px;
+  /* identical to box height */
+
+  color: #009688;
+}
+
+.conteudo-bloco-4-container {
+  margin-top: 200px;
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 150px;
+}
+.conteudo-bloco-4-imagem {
+  background-color: #c4c4c4;
+  width: 319px;
+  height: 193px;
+  gap: 10px;
+}
+.conteudo-bloco-4-subtitulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 43px;
+  color: #009688;
+}
+.conteudo-bloco-4-paragrafo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 17px;
+  line-height: 31px;
+
+  color: #000000;
+}
+.conteudo-bloco-4-btn {
+  height: 150px;
+  text-align: center;
+  justify-content: center;
+}
+.conteudo-bloco-4-btn-texto {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 29px;
+
+  color: #ff4081;
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  padding: 5px 90px;
+  position: relative;
+  top: 50%;
+  transition: 400ms;
+}
+.conteudo-bloco-4-btn-texto:hover {
+  background-color: #ff4081;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #419488;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 40px;
+}
+.logo-rodape {
+  margin: 5px 5px;
+}
+.nav-rodape-texto {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.rodape-link-texto {
+  border: 2px solid #f6f6f6;
+  border-radius: 62px;
+  padding: 7px 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.rodape-link-texto-2 {
+  margin-top: 15px;
+}
+@media (max-width: 500px) {
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 150px;
+    height: 60px;
+  }
+
+  .cabecalho-lista {
+    flex-direction: column;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1 {
+    width: 500px;
+  }
+
+  .conteudo-bloco-1-escrito-titulo {
+    font-size: 45px;
+  }
+
+  .conteudo-bloco-1-escrito-subtitulo {
+    font-size: 20px;
+  }
+  .conteudo-bloco-1-btn {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .conteudo-bloco-1 {
+    flex-direction: column;
+    margin: auto;
+    margin-left: 35px;
+  }
+  .conteudo-2 {
+    width: 500px;
+    background-color: #ffffff;
+    border-top: 1px solid gray;
+  }
+  .conteudo-bloco-2 {
+    flex-direction: column;
+    margin: auto;
+    margin-left: 35px;
+    gap: 10px;
+  }
+  .conteudo-bloco-2-titulo {
+    font-size: 25px;
+  }
+  .conteudo-bloco-2-paragrafo {
+    font-size: 15px;
+  }
+  .conteudo-bloco-2-btn {
+    font-size: 18px;
+  }
+  .conteuco-bloco-1-imagem {
+    width: 280px;
+    height: 270px;
+  }
+  .conteudo-3 {
+    width: 500px;
+    border-top: 1px solid gray;
+  }
+  .conteudo-bloco-3-titulo {
+    font-size: 30px;
+  }
+  .conteudo-bloco-3-paragrafo {
+    font-size: 15px;
+  }
+  .conteudo-bloco-3 {
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .conteudo-4 {
+    width: 500px;
+    border-top: 1px solid gray;
+    background-color: #ffffff;
+  }
+  .conteudo-bloco-4-titulo {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  .conteudo-bloco-4-subtitulo {
+    font-size: 20px;
+  }
+  .conteudo-bloco-4-container {
+    flex-direction: column;
+  }
+  .conteudo-bloco-4-imagem {
+    width: 250px;
+    height: 200px;
+  }
+  .conteudo-bloco-4-btn-texto {
+    font-size: 15px;
+  }
+  footer {
+    display: none;
+  }
+}
+@media (max-width: 800px) {
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 200px;
+    height: 100px;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1 {
+    width: 800px;
+  }
+
+  .conteudo-bloco-1-escrito-titulo {
+    font-size: 45px;
+  }
+
+  .conteudo-bloco-1-escrito-subtitulo {
+    font-size: 20px;
+  }
+  .conteudo-bloco-1-btn {
+    font-size: 15px;
+    padding: 5px 10px;
+  }
+  .conteudo-bloco-1 {
+    flex-direction: column;
+    margin: auto;
+    margin-left: 35px;
+  }
+  .conteudo-2 {
+    width: 800px;
+    background-color: #ffffff;
+    border-top: 1px solid gray;
+  }
+  .conteudo-bloco-2 {
+    flex-direction: column;
+    margin: auto;
+    margin-left: 35px;
+    gap: 10px;
+  }
+  .conteudo-bloco-2-titulo {
+    font-size: 25px;
+  }
+  .conteudo-bloco-2-paragrafo {
+    font-size: 15px;
+  }
+  .conteudo-bloco-2-btn {
+    font-size: 18px;
+  }
+  .conteuco-bloco-1-imagem {
+    width: 280px;
+    height: 270px;
+  }
+  .conteudo-3 {
+    width: 800px;
+    border-top: 1px solid gray;
+  }
+  .conteudo-bloco-3-titulo {
+    font-size: 30px;
+  }
+  .conteudo-bloco-3-paragrafo {
+    font-size: 15px;
+  }
+  .conteudo-bloco-3 {
+    flex-direction: column;
+    margin-right: 50px;
+  }
+
+  .conteudo-4 {
+    width: 800px;
+    border-top: 1px solid gray;
+    background-color: #ffffff;
+  }
+  .conteudo-bloco-4-titulo {
+    font-size: 40px;
+    margin-right: 10px;
+  }
+  .conteudo-bloco-4-subtitulo {
+    font-size: 20px;
+  }
+  .conteudo-bloco-4-container {
+    flex-direction: column;
+  }
+  .conteudo-bloco-4-imagem {
+    width: 250px;
+    height: 200px;
+  }
+  .conteudo-bloco-4-btn-texto {
+    font-size: 15px;
+  }
+  footer {
+    display: none;
+  }
+}

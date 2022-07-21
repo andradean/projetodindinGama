@@ -1,0 +1,348 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-family: "Ubuntu";
+  max-width: 100%;
+  box-sizing: border-box;
+}
+header a {
+  color: #fdfdfd;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.cabecalho-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+li {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  list-style-type: none;
+  color: #fdfdfd;
+}
+
+.conteudo-1-post {
+  margin: 200px 500px;
+}
+.sessao-1-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.titulo-principal-1-post {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 50px;
+  line-height: 57px;
+  display: flex;
+  align-items: center;
+
+  color: #ff4081;
+}
+.data-titulo-principal {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+
+  display: flex;
+  align-items: center;
+
+  color: #9d9d9d;
+}
+
+.imagem-principal-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.imagem-post {
+  width: 1032px;
+  height: 465px;
+  background-color: #c4c4c4;
+}
+.sessao-2-post {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.sessao-2-paragrafo {
+  margin-top: 50px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 21px;
+  font-feature-settings: "kern" off;
+
+  color: #000000;
+}
+.sessao-2-titulo {
+  margin-top: 50px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 21px;
+  font-feature-settings: "kern" off;
+  color: #419488;
+}
+.conteudo-2 {
+  background-color: #f7f7f7;
+  width: 100vw;
+  padding-bottom: 60px;
+}
+.conteudo-bloco-2 {
+  margin-left: 100px;
+  margin-right: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 100px;
+  gap: 50px;
+}
+.conteudo-bloco-2-opcoes {
+  text-align: center;
+}
+.conteudo-bloco-2-titulo {
+  margin-top: 40px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 29px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ff4081;
+}
+.conteudo-bloco-2-paragrafo {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+
+  color: #000000;
+}
+.conteudo-bloco-2-btn {
+  border: 2px solid #ff4081;
+  border-radius: 62px;
+  padding: 10px;
+  width: 300px;
+  text-align: center;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 31px;
+  transition: 400ms;
+  background-color: #ff4081;
+
+  color: #ffffff;
+}
+.conteudo-bloco-2-btn:hover {
+  background-color: #ffffff;
+  color: #ff4081;
+}
+footer {
+  background-color: #419488;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 40px;
+}
+.logo-rodape {
+  margin: 5px 5px;
+}
+.nav-rodape-texto {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.rodape-link-texto {
+  border: 2px solid #f6f6f6;
+  border-radius: 62px;
+  padding: 7px 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.rodape-link-texto-2 {
+  margin-top: 15px;
+}
+@media (max-width: 1400px) {
+  * {
+    margin: 0px;
+  }
+
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 150px;
+    height: 60px;
+  }
+  .cabecalho-lista {
+    flex-direction: column;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1-post {
+    margin: 0px;
+  }
+
+  .imagem-post {
+    width: 300px;
+    height: 200px;
+  }
+  .sessao-2-post {
+    margin: 20px;
+  }
+  .sessao-2-paragrafo {
+    font-size: 15px;
+  }
+  .sessao-2-titulo {
+    font-size: 25px;
+  }
+  .conteudo-2 {
+    width: 500px;
+    background-color: #ffffff;
+    margin-left: 130px;
+  }
+  .conteudo-bloco-2 {
+    flex-direction: column;
+    margin: auto;
+    margin-left: 35px;
+    gap: 10px;
+  }
+  .conteudo-bloco-2-titulo {
+    font-size: 25px;
+  }
+  .conteudo-bloco-2-paragrafo {
+    font-size: 15px;
+  }
+  .conteudo-bloco-2-btn {
+    font-size: 18px;
+  }
+
+  footer {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  * {
+    margin: 0px;
+  }
+
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 150px;
+    height: 60px;
+  }
+  .cabecalho-lista {
+    flex-direction: column;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1-post {
+    margin: 0px;
+  }
+
+  .imagem-post {
+    width: 300px;
+    height: 200px;
+  }
+  .sessao-2-post {
+    margin: 20px;
+  }
+  .sessao-2-paragrafo {
+    font-size: 15px;
+  }
+  .sessao-2-titulo {
+    font-size: 25px;
+  }
+  .conteudo-2 {
+    width: 500px;
+    background-color: #ffffff;
+    margin-left: 0px;
+  }
+  .conteudo-bloco-2 {
+    flex-direction: column;
+    margin: auto;
+    margin-left: 35px;
+    gap: 10px;
+  }
+  .conteudo-bloco-2-titulo {
+    font-size: 25px;
+  }
+  .conteudo-bloco-2-paragrafo {
+    font-size: 15px;
+  }
+  .conteudo-bloco-2-btn {
+    font-size: 18px;
+  }
+
+  footer {
+    display: none;
+  }
+}

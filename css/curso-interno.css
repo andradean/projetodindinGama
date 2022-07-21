@@ -1,0 +1,414 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-family: "Ubuntu";
+  max-width: 100%;
+  box-sizing: border-box;
+}
+header a {
+  color: #fdfdfd;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.cabecalho-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+li {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  list-style-type: none;
+  color: #fdfdfd;
+}
+
+.conteudo-1-curso-interno {
+  display: flex;
+  margin: 200px 200px;
+  justify-content: space-between;
+}
+.conteudo-1-curso-interno-container {
+  align-items: center;
+}
+.conteudo-1-curso-interno-titulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 70px;
+  line-height: 63px;
+
+  color: #ff4081;
+}
+.conteudo-1-curso-interno-paragrafo {
+  margin-top: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 35px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.conteudo-2-curso-interno {
+  display: flex;
+  background-color: #f7f7f7;
+}
+.conteudo-2-curso-interno-video {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.conteudo-2-curso-interno-container {
+  padding-left: 100px;
+  margin-top: 100px;
+}
+.conteudo-2-curso-interno-titulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+
+  color: #ff4081;
+}
+.conteudo-2-curso-interno-descricao {
+  margin-top: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+/*      dsldsklsdsdk             */
+.conteudo-3-curso-interno {
+  display: flex;
+  background-color: #f7f7f7;
+}
+.conteudo-3-curso-interno-video {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.conteudo-3-curso-interno-container {
+  padding-left: 100px;
+  margin-top: 100px;
+}
+.conteudo-3-curso-interno-titulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+
+  color: #ff4081;
+}
+.conteudo-3-curso-interno-descricao {
+  margin-top: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+
+/*      LDSLSD          */
+.conteudo-4-curso-interno {
+  display: flex;
+  background-color: #f7f7f7;
+
+  padding-bottom: 150px;
+}
+.conteudo-4-curso-interno-video {
+  margin-left: 200px;
+  margin-top: 100px;
+}
+.conteudo-4-curso-interno-container {
+  padding-left: 100px;
+  margin-top: 100px;
+}
+.conteudo-4-curso-interno-titulo {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 40px;
+
+  color: #ff4081;
+}
+.conteudo-4-curso-interno-descricao {
+  margin-top: 25px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 30px;
+  line-height: 23px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+footer {
+  background-color: #419488;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 40px;
+}
+.logo-rodape {
+  margin: 5px 5px;
+}
+.nav-rodape-texto {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.rodape-link-texto {
+  border: 2px solid #f6f6f6;
+  border-radius: 62px;
+  padding: 7px 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.rodape-link-texto-2 {
+  margin-top: 15px;
+}
+@media (max-width: 1100px) {
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 150px;
+    height: 60px;
+  }
+  .cabecalho-lista {
+    flex-direction: column;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1-curso-interno {
+    flex-direction: column;
+    margin: 0;
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+  .conteudo-1-curso-interno-titulo {
+    font-size: 40px;
+  }
+  .conteudo-1-curso-interno-paragrafo {
+    font-size: 20px;
+  }
+  .conteudo-1-curso-interno-imagem {
+    margin-top: 30px;
+    width: 300px;
+    height: 300px;
+  }
+  .conteudo-2-curso-interno {
+    flex-direction: column;
+  }
+  .conteudo-2-curso-interno-video {
+    width: 300px;
+    height: 300px;
+  }
+  .conteudo-2-curso-interno-container {
+    margin-left: 100px;
+  }
+  .conteudo-2-curso-interno-titulo {
+    font-size: 35px;
+  }
+  .conteudo-2-curso-interno-descricao {
+    font-size: 20px;
+  }
+  /* */
+  .conteudo-3-curso-interno {
+    flex-direction: column;
+  }
+  .conteudo-3-curso-interno-video {
+    width: 300px;
+    height: 300px;
+  }
+  .conteudo-3-curso-interno-container {
+    margin-left: 100px;
+  }
+  .conteudo-3-curso-interno-titulo {
+    font-size: 35px;
+  }
+  .conteudo-3-curso-interno-descricao {
+    font-size: 20px;
+  }
+  /* */
+  .conteudo-4-curso-interno {
+    flex-direction: column;
+  }
+  .conteudo-4-curso-interno-video {
+    width: 300px;
+    height: 300px;
+  }
+  .conteudo-4-curso-interno-container {
+    margin-left: 100px;
+  }
+  .conteudo-4-curso-interno-titulo {
+    font-size: 35px;
+  }
+  .conteudo-4-curso-interno-descricao {
+    font-size: 20px;
+  }
+  footer {
+    display: none;
+  }
+}
+@media (max-width: 500px) {
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 150px;
+    height: 60px;
+  }
+  .cabecalho-lista {
+    flex-direction: column;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1-curso-interno {
+    flex-direction: column;
+    margin: 0;
+    margin-left: 50px;
+    margin-top: 100px;
+  }
+  .conteudo-1-curso-interno-titulo {
+    font-size: 35px;
+  }
+  .conteudo-1-curso-interno-paragrafo {
+    font-size: 20px;
+  }
+  .conteudo-1-curso-interno-imagem {
+    margin-top: 30px;
+    width: 200px;
+    height: 200px;
+  }
+  .conteudo-2-curso-interno {
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  .conteudo-2-curso-interno-video {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+  }
+  .conteudo-2-curso-interno-container {
+    margin-left: 50px;
+  }
+  .conteudo-2-curso-interno-titulo {
+    font-size: 25px;
+    margin-top: -140px;
+  }
+  .conteudo-2-curso-interno-descricao {
+    font-size: 15px;
+  }
+  /* */
+  .conteudo-3-curso-interno {
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  .conteudo-3-curso-interno {
+    flex-direction: column;
+  }
+  .conteudo-3-curso-interno-video {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+  }
+  .conteudo-3-curso-interno-container {
+    margin-left: 100px;
+    margin-left: 50px;
+  }
+  .conteudo-3-curso-interno-titulo {
+    font-size: 25px;
+    margin-top: -140px;
+  }
+  .conteudo-3-curso-interno-descricao {
+    font-size: 15px;
+  }
+  /* */
+  .conteudo-4-curso-interno {
+    flex-direction: column;
+    padding-right: 100px;
+  }
+  .conteudo-4-curso-interno {
+    flex-direction: column;
+  }
+  .conteudo-4-curso-interno-video {
+    width: 250px;
+    height: 250px;
+    margin: 50px;
+  }
+  .conteudo-4-curso-interno-container {
+    margin-left: 100px;
+    margin-left: 50px;
+  }
+  .conteudo-4-curso-interno-titulo {
+    font-size: 25px;
+    margin-top: -140px;
+  }
+  .conteudo-4-curso-interno-descricao {
+    font-size: 15px;
+  }
+  footer {
+    display: none;
+  }
+}

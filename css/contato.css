@@ -1,0 +1,256 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  @import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
+  font-family: "Ubuntu";
+  max-width: 100%;
+  box-sizing: border-box;
+}
+header a {
+  color: #fdfdfd;
+}
+.cabecalho {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  background-color: #2e948a;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.25);
+}
+.cabecalho-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+header nav ul {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+li {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 23px;
+  list-style-type: none;
+  color: #fdfdfd;
+}
+.conteudo-1-titulo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  /* identical to box height */
+
+  color: #ff4081;
+}
+.conteudo-1-contato {
+  display: flex;
+  margin-top: 150px;
+  align-items: center;
+  justify-content: center;
+  gap: 300px;
+}
+.formulario-contato {
+  display: flex;
+  flex-direction: column;
+}
+.contato-container {
+  width: 100%;
+  max-width: 500px;
+}
+.field {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid black;
+  border-radius: 40px;
+}
+.area-mensagem-contato {
+  height: 300px;
+  border: 1px solid black;
+  border-radius: 20px;
+  padding: 5px;
+}
+.btn-enviar-contato {
+  margin-top: 5px;
+  width: 100px;
+  background: #ff4081;
+  border-radius: 50px;
+  border: none;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 22px;
+  /* identical to box height */
+
+  text-align: center;
+  text-transform: lowercase;
+
+  color: #ffffff;
+}
+footer {
+  margin-top: 200px;
+  background-color: #419488;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 150px;
+  padding-top: 40px;
+}
+.logo-rodape {
+  margin: 5px 5px;
+}
+.nav-rodape-texto {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  color: #ffffff;
+}
+
+.rodape-link-texto {
+  border: 2px solid #f6f6f6;
+  border-radius: 62px;
+  padding: 7px 50px;
+
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 23px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #ffffff;
+}
+.rodape-link-texto-2 {
+  margin-top: 15px;
+}
+
+@media (max-width: 1000px) {
+  header {
+    padding: 0px 25px;
+  }
+
+  header img {
+    width: 150px;
+    height: 60px;
+  }
+  .cabecalho-lista {
+    flex-direction: column;
+  }
+
+  .cabecalho-lista-item {
+    margin: 0px;
+    padding: 0px;
+    font-size: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .conteudo-1-titulo {
+    font-size: 40px;
+  }
+  .imagem-contato {
+    width: 300px;
+    height: 250px;
+    margin-left: -500px;
+  }
+  .conteudo-1-contato {
+    width: 890;
+  }
+  .formulario-contato {
+    width: 300px;
+    height: 300px;
+  }
+  footer {
+    display: none;
+  }
+  .contato-container {
+    margin: 0%;
+  }
+  .contato-container {
+    width: 100%;
+    max-width: 500px;
+  }
+  .field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 100px;
+  }
+  .area-mensagem-contato {
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 100px;
+  }
+
+  @media (max-width: 500px) {
+    header {
+      padding: 0px 25px;
+    }
+
+    header img {
+      width: 150px;
+      height: 60px;
+    }
+    .cabecalho-lista {
+      flex-direction: column;
+    }
+
+    .cabecalho-lista-item {
+      margin: 0px;
+      padding: 0px;
+      font-size: 15px;
+      padding-left: 15px;
+      padding-right: 15px;
+    }
+    .conteudo-1-titulo {
+      font-size: 40px;
+    }
+    .imagem-contato {
+      display: none;
+    }
+    .conteudo-1-contato {
+      width: 890;
+    }
+    .formulario-contato {
+      width: 300px;
+      height: 300px;
+    }
+    footer {
+      display: none;
+    }
+    .contato-container {
+      margin: 0% 50%;
+    }
+  }
+  .field {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 400px;
+  }
+  .area-mensagem-contato {
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 5px;
+    width: 400px;
+  }
+}
